@@ -1,4 +1,6 @@
-# your code here
-user_input = input()
-# your code here
-print(alphabet)
+string = input()
+alphabet = "" 
+for i in string:
+ if i not in alphabet:
+  alphabet+=i
+print (alphabet)
