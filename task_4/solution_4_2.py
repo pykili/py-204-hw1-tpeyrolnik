@@ -1,5 +1,3 @@
-for i in 's'*10:
- string = input ()
  tab_count = 0
  form = ''
  lemma = ''
@@ -15,6 +13,8 @@ for i in 's'*10:
  for letter in lemma:
   if lemma[k] == form[k]:
    k +=1
+   sovpad = 1
   else:
-   print (form, lemma)
-   break
+   sovpad = 0
+ if sovpad == 0:
+  print (form, lemma)
